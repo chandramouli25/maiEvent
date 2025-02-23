@@ -2,7 +2,7 @@
   "name": "mai_project_booking",
   "version": "0.1.0",
   "private": true,
-  "homepage": "",
+  "homepage": "https://github.com/chandramouli25/maiEvent.git",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
