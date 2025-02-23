@@ -23,7 +23,7 @@ function App() {
       </header>
       {activeContainer === "projectlist" && <ProjectsContainer /> }
       {activeContainer === "postingProject" && <PostingProject /> }
-      {activeContainer === "liveProject" && <LiverProjects /> }
+      {activeContainer === "liveProject" && <LiverProjects  changingcontainer={onChangeinContent} /> }
 
     </div>
   );
