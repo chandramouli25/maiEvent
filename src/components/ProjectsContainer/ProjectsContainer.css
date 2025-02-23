@@ -1,0 +1,57 @@
+.projects-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-project {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    background: url('../../../public/photos/projectList.svg') no-repeat center center / cover;
+    height: 350px;
+    align-items: end;
+
+}
+
+.about-project p {
+    font-size: 25px;
+    width: 100%;
+    margin: 0;
+    padding: 1% 10%;
+    /* font-weight: 300; */
+    color: white;
+    background: #0000006b;
+}
+
+.project-search-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.filter-container {
+    display: flex;
+    gap: 10px;
+}
+
+.filter-container img {
+    width: 25px;
+}
+
+.sort-btn {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    width: 83px;
+    justify-content: center;
+}
+
+.project-card-list{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+    gap: 10px;
+}
+

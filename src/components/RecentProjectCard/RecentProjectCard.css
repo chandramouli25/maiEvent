@@ -1,0 +1,32 @@
+.recent-project-card{
+    flex: 0 0 auto; /* Prevent shrinking */
+    max-width: 250px; /* Ensures proper scrolling */
+    padding:0 10px;
+    /* background-color: aqua; */
+}
+.recent-project-card h2{
+    font-size: 20px;
+}
+
+.recent-project-card img {
+    display: block;       /* Ensure image behaves as block element */
+    width: 100%;          /* Make image take up full width of its container */
+    max-width: 100%;      /* Prevent image from exceeding container width */
+    height: auto;         /* Maintain aspect ratio */
+    object-fit: cover; 
+  }
+  
+
+
+
+.recent-project-card .btn-blue{
+    margin-top: 8px;
+    width: 100%;
+    padding:10px 0px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    background: var(---primary-color);
+    border-radius:0 0 10px 10px;
+}

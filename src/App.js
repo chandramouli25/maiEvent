@@ -1,23 +1,30 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import HeaderDiv from './components/HeaderDiv/HeaderDiv';
+import NavBar from './components/NavBar/NavBar';
+import ProjectsContainer from './components/ProjectsContainer/ProjectsContainer';
+import PostingProject from './components/PostingProject/PostingProject';
+import LiverProjects from './components/LiverProjects/LiverProjects';
+
 
 function App() {
+  const [activeContainer , setActiveContainer ] = useState("liveProject")
+
+  const onChangeinContent = (newContainer) => {
+    console.log("newContainer",newContainer)
+    setActiveContainer(newContainer);
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <HeaderDiv  changingcontainer={onChangeinContent} />
+        <NavBar changingcontainer={onChangeinContent}  />
       </header>
+      {activeContainer === "projectlist" && <ProjectsContainer /> }
+      {activeContainer === "postingProject" && <PostingProject /> }
+      {activeContainer === "liveProject" && <LiverProjects /> }
+
     </div>
   );
 }

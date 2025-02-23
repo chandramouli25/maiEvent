@@ -1,0 +1,107 @@
+.post-project {
+    display: flex;
+    padding-top: 5px;
+    justify-content: space-around;
+    height: 660px;
+}
+
+
+/* image container */
+.img-post-container{
+    height: 100%;
+
+}
+.img-post-container img{
+    height: 100%;
+    /* image-ov */
+}
+
+
+.project-post-form{
+    padding: 20px 0 ;
+    border: 1px solid rgb(212, 206, 206);   
+    height: 100%;
+    border-radius: 10px;
+    width: 50%;
+    overflow-y: scroll;
+}
+
+.post-instructions{
+    display: flex;
+    flex-direction: column;
+   
+}
+.post-instructions article{
+    margin: auto;
+    width: 80%;
+    background: var(---primary-container-color);
+    /* list-style: circle; */
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 25px;
+}
+
+
+.post-instructions h2{
+    text-align: center; /* Centers the text */
+   
+    color: var(---primary-color);
+    font-size: 25px;
+}
+
+
+.topic-post-project{
+    text-align: center; /* Centers the text */
+    display: block; /* Ensures it's treated as a block element */
+   
+    background-color: var(---primary-container-color);
+    color: var(---primary-color);
+    font-size: 30px;
+    font-weight: 700;
+    padding: 10px;
+    margin: 20px 0; 
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.post-input-container{
+    font-size: 20px;
+    padding: 0 30px;
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.post-input-container textarea{
+    all: unset;
+    border: none;
+    background-color: #f0f0f0;
+    width: 100%;
+    border-radius: 17px;
+    height: 90px;
+    padding: 5px;
+
+}
+
+.post-input-container.date input{
+    all: unset;
+    border: none;
+    background-color: #f0f0f0;
+    width: 60%;
+    text-align: center;
+    border-radius: 17px;
+    height: 60px;
+    padding:0 15px;
+}
+.post-form h5 {
+    text-align: center;
+}
+.post-form h3{
+     margin-top: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+}
+.upload{
+    background: var(---primary-container-color);
+}

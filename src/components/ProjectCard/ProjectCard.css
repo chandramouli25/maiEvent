@@ -1,0 +1,125 @@
+.project-card {
+    background:#f5f5f5 !important;
+    display: flex;
+    flex-direction: row;
+    height: 450px;
+    justify-content: space-between;
+    border: 1px solid #a5a2a2;
+}
+
+.project-card .img-project {
+    width: 100%;
+    max-width: 550px;
+    object-fit: cover;
+    flex-basis: 40%;
+
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    width: 63%;
+    padding: 0 0%;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+
+.intern-counts {
+    background-color: #FFCD29;
+    width: fit-content;
+    margin: 0;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 2px 15px;
+    margin-left: auto;
+    /* This ensures it moves to the right */
+    font-size: 18px;
+}
+
+
+.sub-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.sub-header button {
+    /* all: unset; */
+    /* Resets all default styles */
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    color: grey;
+    /* Ensures the pointer cursor remains */
+}
+
+.sub-header p {
+    margin-right: 5px;
+}
+
+.details-project {
+    display: grid;
+    grid-template-columns: 1fr 1px 1fr;
+    /* align-items: center; */
+    gap: 20px;
+    height: 100px;
+    width: 75%;
+    font-size: 18px;
+    margin-top: 10px;
+    /* padding: 16px 17px; */
+}
+
+.details-project p {
+    margin-top: 5px;
+}
+
+
+/*==========  project status ========= */
+.project-status{
+    display: flex;
+    
+    justify-content: space-between;
+    text-align: start;
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #3E3D3D;
+}
+
+
+/* -------project-desc ---------- */
+.project-desc {
+    margin-top: 10px;
+}
+.project-desc h2{
+    font-size: 25px;
+}
+.project-desc p{
+    margin-top: 10px;
+    font-weight: 450;
+    font-size: 18px;
+}
+
+/* ---------------  button groups under the project descriptions -------- */
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    .project-card {
+        flex-direction: row;
+        min-height: auto;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .project-card .img-project {
+        width: 100%;
+        max-width: none;
+    }
+}

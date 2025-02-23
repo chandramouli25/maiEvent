@@ -1,0 +1,36 @@
+.Header{
+    display: flex;
+    padding: 1% 8%;
+
+}
+
+.title-bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 20px;
+    color: var(---primary-color);
+    text-transform: capitalize;
+
+}
+
+
+.header-part{
+    display: flex;
+    /* justify-content: space-around; */
+    /* width: 50%; */
+    gap: 25px;
+    align-items: center;
+}
+
+.shopping-logo{
+    width: 30px;
+    cursor: pointer;
+}
+
+
+
+.header-part p{
+    cursor: pointer;
+}

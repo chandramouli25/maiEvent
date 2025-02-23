@@ -1,0 +1,25 @@
+.nav-bar{
+    display: flex;
+    /* width: 100%; */
+    background-color: var(---primary-container-color);
+    justify-content: space-between;
+    font-size: 18px;
+
+}
+
+.nav-bar ul{
+    display: flex;
+    gap: 20px;
+    width: fit-content;
+    list-style: none;
+    margin: 0;
+
+}
+
+.nav-bar li{
+    padding: 10px;
+    color: var(---primary-color);
+    font-weight: 700;
+    cursor: pointer;
+}
+
