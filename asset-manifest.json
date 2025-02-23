@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.aa5af538.css",
-    "main.js": "/static/js/main.d6cde6a5.js",
-    "static/js/453.8949204c.chunk.js": "/static/js/453.8949204c.chunk.js",
-    "static/media/projectList.svg": "/static/media/projectList.624c9c3990b4e51df467.svg",
-    "index.html": "/index.html",
-    "main.aa5af538.css.map": "/static/css/main.aa5af538.css.map",
-    "main.d6cde6a5.js.map": "/static/js/main.d6cde6a5.js.map",
-    "453.8949204c.chunk.js.map": "/static/js/453.8949204c.chunk.js.map"
+    "main.css": "/chandramouli25/maiEvent/static/css/main.c99e47c3.css",
+    "main.js": "/chandramouli25/maiEvent/static/js/main.620d7b04.js",
+    "static/js/453.8949204c.chunk.js": "/chandramouli25/maiEvent/static/js/453.8949204c.chunk.js",
+    "static/media/projectList.svg": "/chandramouli25/maiEvent/static/media/projectList.624c9c3990b4e51df467.svg",
+    "index.html": "/chandramouli25/maiEvent/index.html",
+    "main.c99e47c3.css.map": "/chandramouli25/maiEvent/static/css/main.c99e47c3.css.map",
+    "main.620d7b04.js.map": "/chandramouli25/maiEvent/static/js/main.620d7b04.js.map",
+    "453.8949204c.chunk.js.map": "/chandramouli25/maiEvent/static/js/453.8949204c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa5af538.css",
-    "static/js/main.d6cde6a5.js"
+    "static/css/main.c99e47c3.css",
+    "static/js/main.620d7b04.js"
   ]
 }
